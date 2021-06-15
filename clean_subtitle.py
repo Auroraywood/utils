@@ -22,6 +22,7 @@ def main(input_file):
         
     with open(input_file, 'w') as f:
         f.write(data)
+    print('Successfully to Clean the raw file.')
 
 if __name__ == "__main__":
     from argparse import ArgumentParser

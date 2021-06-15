@@ -6,7 +6,6 @@ Created on Tue Jun 15 08:32:35 2021
 @author: zdx
 """
 
-
 def main(input_file):
     with open(input_file, 'r') as f:
         data = f.read().splitlines()
